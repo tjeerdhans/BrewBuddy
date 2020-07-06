@@ -1090,7 +1090,7 @@
       <Unit127>
         <Filename Value="AlReport/alrep.pas"/>
         <UnitName Value="Alrep"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit127>
       <Unit128>
         <Filename Value="/usr/lib/lazarus/0.9.30.4/lcl/include/customform.inc"/>
@@ -1103,14 +1103,14 @@
         <UnitName Value="TAChartAxis"/>
         <TopLine Value="13"/>
         <CursorPos X="3" Y="27"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit129>
       <Unit130>
         <Filename Value="/usr/share/lazarus/1.0/components/tachart/tadraweraggpas.pas"/>
         <UnitName Value="TADrawerAggPas"/>
         <TopLine Value="8"/>
         <CursorPos X="22" Y="23"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit130>
       <Unit131>
         <Filename Value="/usr/share/lazarus/1.0/lcl/grids.pas"/>
@@ -1124,47 +1124,47 @@
         <UnitName Value="TAGraph"/>
         <TopLine Value="1133"/>
         <CursorPos X="46" Y="1146"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit132>
       <Unit133>
         <Filename Value="/usr/share/lazarus/1.0/components/tachart/tadrawercanvas.pas"/>
         <UnitName Value="TADrawerCanvas"/>
         <TopLine Value="175"/>
         <CursorPos Y="137"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit133>
       <Unit134>
         <Filename Value="/usr/share/lazarus/1.0/components/tachart/taprint.pas"/>
         <UnitName Value="TAPrint"/>
         <TopLine Value="30"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit134>
       <Unit135>
         <Filename Value="/usr/share/lazarus/1.0/lcl/include/rasterimage.inc"/>
         <TopLine Value="291"/>
         <CursorPos Y="305"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit135>
       <Unit136>
         <Filename Value="/usr/share/lazarus/1.0/lcl/include/customedit.inc"/>
         <TopLine Value="517"/>
         <CursorPos Y="526"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit136>
       <Unit137>
         <Filename Value="/usr/share/lazarus/1.0/lcl/include/control.inc"/>
         <TopLine Value="2729"/>
         <CursorPos Y="2743"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit137>
       <Unit138>
         <Filename Value="/usr/share/lazarus/1.0/packager/registration/registerfcl.pas"/>
         <UnitName Value="RegisterFCL"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit138>
       <Unit139>
         <Filename Value="/usr/share/lazarus/1.0/packager/registration/fcllaz.pas"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit139>
       <Unit140>
         <Filename Value="Synapse/source/lib/laz_synapse.pas"/>
@@ -1175,27 +1175,27 @@
       <Unit141>
         <Filename Value="/usr/share/lazarus/1.0/lcl/interfaces/lcl.pas"/>
         <UnitName Value="LCL"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit141>
       <Unit142>
         <Filename Value="/usr/share/lazarus/1.0/lcl/alllclunits.pp"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit142>
       <Unit143>
         <Filename Value="/usr/share/lazarus/1.0/components/aggpas/lazarus/aggpaslcl.pas"/>
         <UnitName Value="AggPasLCL"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit143>
       <Unit144>
         <Filename Value="/usr/share/lazarus/1.0/components/tachart/tachartprint.pas"/>
         <UnitName Value="TAChartPrint"/>
         <CursorPos X="3" Y="10"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit144>
       <Unit145>
         <Filename Value="/usr/share/lazarus/1.0/components/tachart/tadrawerwmf.pas"/>
         <UnitName Value="TADrawerWMF"/>
-        <UsageCount Value="0"/>
+        <UsageCount Value="10"/>
       </Unit145>
       <Unit146>
         <Filename Value="/usr/share/lazarus/1.0/lcl/include/customcheckbox.inc"/>
@@ -1650,7 +1650,7 @@
     <Linking>
       <Options>
         <PassLinkerOptions Value="True"/>
-        <LinkerOptions Value="-rpath=$ORIGIN"/>
+        <LinkerOptions Value="-rpath=$ORIGIN/../Source/3rdParty/fann/usr/local/lib"/>
       </Options>
     </Linking>
   </CompilerOptions>
