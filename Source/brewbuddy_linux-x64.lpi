@@ -47,6 +47,10 @@
               <GenerateDebugInfo Value="False"/>
               <UseValgrind Value="True"/>
             </Debugging>
+            <Options>
+              <PassLinkerOptions Value="True"/>
+              <LinkerOptions Value="-rpath=lib"/>
+            </Options>
           </Linking>
         </CompilerOptions>
       </Item2>
@@ -97,6 +101,8 @@
         <Filename Value="brewbuddy.pas"/>
         <IsPartOfProject Value="True"/>
         <IsVisibleTab Value="True"/>
+        <TopLine Value="4"/>
+        <CursorPos X="65" Y="16"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit0>
@@ -173,8 +179,8 @@
         <IsPartOfProject Value="True"/>
         <UnitName Value="Hulpfuncties"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="2477"/>
-        <CursorPos Y="2529"/>
+        <TopLine Value="2311"/>
+        <CursorPos X="5" Y="2335"/>
         <UsageCount Value="201"/>
         <Loaded Value="True"/>
       </Unit11>
@@ -1212,7 +1218,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="2"/>
         <CursorPos X="86" Y="8"/>
-        <UsageCount Value="182"/>
+        <UsageCount Value="183"/>
       </Unit147>
       <Unit148>
         <Filename Value="/usr/share/lazarus/1.0/components/lazutils/fileutil.inc"/>
@@ -1233,7 +1239,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="1307"/>
         <CursorPos X="42" Y="194"/>
-        <UsageCount Value="130"/>
+        <UsageCount Value="131"/>
       </Unit150>
       <Unit151>
         <Filename Value="/usr/share/lazarus/1.0.2/lcl/extctrls.pp"/>
@@ -1269,7 +1275,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="91"/>
         <CursorPos X="32" Y="115"/>
-        <UsageCount Value="131"/>
+        <UsageCount Value="132"/>
       </Unit155>
       <Unit156>
         <Filename Value="UserInterface/Forms/frrestoredatabases.pas"/>
@@ -1279,7 +1285,7 @@
         <ResourceBaseClass Value="Form"/>
         <EditorIndex Value="-1"/>
         <CursorPos X="47" Y="16"/>
-        <UsageCount Value="130"/>
+        <UsageCount Value="131"/>
       </Unit156>
       <Unit157>
         <Filename Value="Units/neuroot.pas"/>
@@ -1287,7 +1293,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="189"/>
         <CursorPos X="25" Y="213"/>
-        <UsageCount Value="130"/>
+        <UsageCount Value="131"/>
       </Unit157>
       <Unit158>
         <Filename Value="fann.pas"/>
@@ -1323,7 +1329,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="7"/>
         <CursorPos Y="21"/>
-        <UsageCount Value="113"/>
+        <UsageCount Value="114"/>
       </Unit162>
       <Unit163>
         <Filename Value="UserInterface/Forms/frdownloadprogress.pas"/>
@@ -1334,7 +1340,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="29"/>
         <CursorPos Y="57"/>
-        <UsageCount Value="107"/>
+        <UsageCount Value="108"/>
       </Unit163>
       <Unit164>
         <Filename Value="/usr/share/fpcsrc/2.6.0/packages/fcl-xml/src/xmlutils.pp"/>
@@ -1608,7 +1614,7 @@
         <UsageCount Value="9"/>
       </Unit201>
     </Units>
-    <JumpHistory Count="5" HistoryIndex="4">
+    <JumpHistory Count="10" HistoryIndex="9">
       <Position1>
         <Filename Value="brewbuddy.pas"/>
         <Caret Line="50"/>
@@ -1629,6 +1635,25 @@
         <Filename Value="brewbuddy.pas"/>
         <Caret Line="99" TopLine="46"/>
       </Position5>
+      <Position6>
+        <Filename Value="brewbuddy.pas"/>
+      </Position6>
+      <Position7>
+        <Filename Value="Units/hulpfuncties.pas"/>
+        <Caret Line="2529" TopLine="2482"/>
+      </Position7>
+      <Position8>
+        <Filename Value="brewbuddy.pas"/>
+        <Caret Line="51" TopLine="4"/>
+      </Position8>
+      <Position9>
+        <Filename Value="Units/hulpfuncties.pas"/>
+        <Caret Line="2335" Column="5" TopLine="2311"/>
+      </Position9>
+      <Position10>
+        <Filename Value="brewbuddy.pas"/>
+        <Caret Line="51" TopLine="4"/>
+      </Position10>
     </JumpHistory>
   </ProjectOptions>
   <CompilerOptions>
@@ -1650,7 +1675,7 @@
     <Linking>
       <Options>
         <PassLinkerOptions Value="True"/>
-        <LinkerOptions Value="-rpath=$ORIGIN/../Source/3rdParty/fann/usr/local/lib"/>
+        <LinkerOptions Value="-rpath=lib"/>
       </Options>
     </Linking>
   </CompilerOptions>
